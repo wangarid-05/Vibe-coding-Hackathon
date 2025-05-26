@@ -1,0 +1,118 @@
+**Summary of Prompts and Development Process for SkillSpark**
+
+---
+
+**Project Name:** SkillSpark
+**Theme:** Building Human-Centered, Joy-Driven Solutions Using AI and Low-Code Tools
+**Hackathon:** Vibe Coding Hackathon (#1MillionDevs Movement)
+**Relevant SDGs:**
+
+* SDG 8: Decent Work and Economic Growth
+* SDG 9: Industry, Innovation, and Infrastructure
+
+---
+
+### 📝 Initial Prompt & Problem Selection
+
+You requested an exploration of day-to-day problems with potential tech-based solutions that align with the SDGs. Among the shortlisted issues, we focused on:
+
+> **Problem 6: Youth Unemployment & Skills Mismatch**
+
+#### Challenge:
+
+Many young people, especially in developing regions, lack access to quality skill-building resources and struggle to find job opportunities aligned with their capabilities.
+
+#### Solution:
+
+Build a mobile/web platform that delivers:
+
+* Microlearning (5-min daily lessons)
+* AI-powered skill coaching
+* Real-time job/gig discovery
+
+---
+
+### 🔎 Prompt Engineering (Claude)
+
+Prompts were designed for Claude (Claude 3.5 Sonnet) to:
+
+* Act as a **personal skill coach**
+* Deliver 5-minute personalized lessons
+* Recommend learning paths based on interests
+* Provide feedback and motivation
+
+Example Prompt:
+
+> "You're an AI career coach. Recommend a 5-minute digital skill lesson for a 19-year-old who likes design and is looking for a remote gig. Include an interactive quiz."
+
+---
+
+### 🎨 UI/UX Design Using MGX
+
+**Tool:** MGX.dev
+
+* Brief @agent(@Alex) with prompts like:
+
+> "Design a clean, mobile-first UI for a skill microlearning app with a dashboard, daily task reminder, and job board."
+
+* Quickly generate design components and export them to Figma or code.
+
+---
+
+### 💻 Backend Integration Using Supabase
+
+Once the UI is built in MGX/Figma:
+
+1. **Supabase** is used to:
+
+   * Store user profiles, skills progress, job applications
+   * Handle authentication (email/OTP login)
+   * Serve real-time updates (e.g., lesson completion)
+2. **Lovable.dev or Bolt.new** can auto-generate documentation & APIs from schema.
+
+---
+
+### 🔬 Competitor Analysis
+
+We benchmarked against platforms in 3 categories:
+
+* **Microlearning** (e.g., Duolingo, Skillshare)
+* **Job discovery** (e.g., Fuzu, Shortlist)
+* **AI-based learning tools** (e.g., Yoma, ReSkill)
+
+> Unique Advantage: Combining Duolingo-style learning + Fuzu job board + ChatGPT coaching in a youth-first app.
+
+---
+
+### ✨ Go-To-Market (GTM) Strategy
+
+**Target Audience:** Youth aged 16–30 in Africa, especially jobseekers and early gig workers.
+
+#### ✅ Phase 1: Pre-Launch
+
+* Campus ambassadors
+* Social media hype (TikTok, IG, X)
+* Waitlist page
+
+#### 🚀 Phase 2: Launch
+
+* Partner with influencers
+* Deploy AI onboarding + rewards
+* Integrate basic job board
+
+#### ↗️ Phase 3: Scale
+
+* Partner with NGOs, telcos, employers
+* Monetize via freemium, partner hiring access, and digital marketplaces
+
+---
+
+### 💼 Deliverables You Requested
+
+* Claude prompt flows (done)
+* MGX UI setup explained (done)
+* README & GitHub setup (in progress)
+* GTM strategy & competitor matrix (done)
+* Pitch deck content (can be generated on request)
+
+Let me know if you want any of these as slides or if you'd like to move on to presentation prep or deployment!
